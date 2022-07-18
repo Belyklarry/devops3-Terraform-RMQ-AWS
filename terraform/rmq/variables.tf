@@ -10,3 +10,9 @@ variable "group" {
     type = string
     default = "rmq"
 }
+
+variable "profile" {
+    description = "The group name that ansible's dynamic inventory will groups"
+    type = string
+    default = "DevOpsUser"
+}
